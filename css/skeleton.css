@@ -1,0 +1,122 @@
+body {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: -.08rem;
+}
+time {
+  color: #ffffff;
+}
+
+.encabezado {
+  background-image: url(http://www.vectoresgratis.com/wp-content/uploads/2013/08/fondo-colorido-vectores-gratis.jpg);
+  height: 80px;
+  width: 1200px;
+}
+
+.color {
+  background-image: url(http://www.hdfondos.eu/pictures/2013/0930/1/orig_41062.jpg); 
+}
+
+.fondo {
+  background-image: url(https://frases.top/wp-content/uploads/2019/11/fondos-de-pantalla-1080p.jpg);
+  height: 500px;
+  width: 1200px;
+}
+
+input[type="button"] {
+  height: 40px;
+  padding: 0 30px;
+  color: rgb(59, 59, 59);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 1000;
+  text-transform: uppercase;
+  background-color: rgb(204, 55, 55);
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  cursor: pointer; }
+
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #353535;
+  border-radius: 15px;
+  height: 40px;
+  background-color: #c5fdde;
+  }
+
+.tabla {
+  text-align: center;
+  padding: 0 30px;
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/95/21/6357ec6ce346d1b.jpg); 
+}
+
+.title {
+  font-weight: 600;
+}
+
+.info {
+  background-image: url(http://www.hdfondos.eu/pictures/2013/0930/1/orig_41062.jpg);
+  color:rgb(255, 255, 255)
+}
+
+  /* Queridos profesores si leen esto, este boton flotante lo saque de internet para que se viera mas bonito :3*/
+.btn-flotante {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 5px; 
+  letter-spacing: 2px;
+  background-color: #1100ff;
+  padding: 18px 30px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  transition: all 300ms ease 0ms;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  }
+  .btn-flotante:hover {
+    background-color: #a52c2c; 
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+    }
+    @media only screen and (max-width: 600px) {
+       .btn-flotante {
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 20px;
+        right: 20px;
+      }
+    }
+
+.final {
+  background-image: url(https://www.eluniverso.com/sites/default/files/styles/powgallery_1280/public/fotos/2020/03/original.jpg?itok=EVlFJWxT);
+  border-radius: 1px;
+  height: 300px;
+  width: 300px;
+
+}
+
+.four.columns {
+  width: 30.6666666667%;
+}
+
+.column:first-child, .columns:first-child {
+  margin-left: 0;
+}
+
+.column, .columns {
+  margin-left: 4%;
+}
+
+.column, .columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
